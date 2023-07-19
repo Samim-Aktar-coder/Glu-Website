@@ -1054,4 +1054,17 @@ section {
     .internal-search img{
         width: 100%;
     }
+
+    .figma-icon{
+        top: 15%;
+        left: 1rem;
+    }
+    .notion-icon{
+        top: 15%;
+        right: 1rem;
+    }
+
+    .drive-icon{
+        display: none;
+    }
 }
