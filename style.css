@@ -971,6 +971,11 @@ section {
         padding-inline: 0;
     }
 
+    .dropdown__modal {
+        right: -2rem;
+        left: unset;
+    }
+
 
 
     .signup__btn {
@@ -1051,20 +1056,21 @@ section {
         display: none;
     }
 
-    .internal-search img{
+    .internal-search img {
         width: 100%;
     }
 
-    .figma-icon{
+    .figma-icon {
         top: 15%;
         left: 1rem;
     }
-    .notion-icon{
+
+    .notion-icon {
         top: 15%;
         right: 1rem;
     }
 
-    .drive-icon{
+    .drive-icon {
         display: none;
     }
 }
