@@ -93,6 +93,7 @@
 .pricing__card {
     min-width: 300px;
     max-width: 350px;
+    text-align: left;
     background-image: url(../img/pricing-card.png);
     background-position: center;
     background-size: cover;
