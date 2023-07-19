@@ -221,6 +221,11 @@
         padding-inline: 2rem;
     }
 
+    .notion-icon{
+        top: 50%;
+        right: 0rem;
+    }
+
 
 }
 
