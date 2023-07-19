@@ -86,6 +86,7 @@ a {
 button {
     border: none;
     outline: none;
+    background-color: transparent;
 }
 
 img {
@@ -147,6 +148,7 @@ section {
 }
 
 .main__btn {
+    display: block;
     background-color: var(--main-theme-color);
     padding: .7rem 1.5rem;
     border: 1px solid var(--main-theme-color);
@@ -258,16 +260,13 @@ section {
     letter-spacing: .1rem;
 }
 
-.signup__btn {
-    background-color: var(--main-theme-color);
-    padding: .7rem 2.5rem;
-    border-radius: .8rem;
-    cursor: pointer;
-}
 
-.signup__btn a {
-    font-size: var(--small -font-size);
+.signup__btn {
+    font-size: var(--small-font-size);
     font-weight: var(--font-medium);
+    padding: .7rem 2.5rem;
+    background-color: var(--main-theme-color);
+    border-radius: .8rem;
 }
 
 .menu__toggle {

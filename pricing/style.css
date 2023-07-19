@@ -33,6 +33,7 @@
 .pricing {
     width: 75%;
     margin-inline: auto;
+    text-align: center;
 }
 
 .pricing__btn-box {
@@ -168,9 +169,7 @@
 }
 
 .pricing .main__btn {
-    margin-inline: auto;
     margin-top: 5rem;
-    display: block;
 }
 
 /*!============= REVIEWS ===== */
