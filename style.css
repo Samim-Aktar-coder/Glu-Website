@@ -900,7 +900,7 @@ section {
         background: #334054;
         border: 1px solid #196c8d;
         border-radius: .6rem;
-        padding: 2rem;
+        padding: 2rem 0;
         z-index: 99;
         transform: scale(0);
         transform-origin: top right;
@@ -914,10 +914,19 @@ section {
     .nav__list {
         flex-direction: column;
         align-items: flex-start;
+        gap: .5rem;
     }
 
     .nav__link {
         font-size: var(--normal-font-size);
+        padding-inline: 2rem;
+        padding-block: .5rem;
+        display: block;
+    }
+
+    .dropdown__modal {
+        top: 2.5rem;
+        left: .5rem;
     }
 
     .menu__toggle {
@@ -972,7 +981,7 @@ section {
     }
 
     .dropdown__modal {
-        right: -2rem;
+        right: .5rem;
         left: unset;
     }
 
