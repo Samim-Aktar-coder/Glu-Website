@@ -1,0 +1,231 @@
+/*!========= HOME ===========*/
+.home__content p {
+    color: var(--gray-color);
+    margin-top: 3rem;
+}
+
+.figma-icon {
+    top: unset;
+    bottom: 1rem;
+    left: 50%;
+    width: 3rem;
+}
+
+.cloud-icon {
+    top: 2rem;
+    left: 8rem;
+    bottom: unset;
+}
+
+.gmail-icon {
+    display: none;
+}
+
+.drive-icon {
+    top: unset;
+    bottom: 5rem;
+    left: 6rem;
+    width: 4rem;
+}
+
+
+/*!============ PRICE =========== */
+.pricing {
+    width: 75%;
+    margin-inline: auto;
+}
+
+.pricing__btn-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.pricing__btn {
+    background-color: transparent;
+    color: var(--gray-color);
+    font-size: var(--h3-font-size);
+    border: 1px solid #196c8d;
+    padding: .7rem 2.3rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.pricing__btn:hover {
+    color: white;
+}
+
+.pricing__btn.active {
+    border: 2px solid #459cbf;
+}
+
+.pricing__content {
+    margin-top: 3rem;
+}
+
+.pricing__items {
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    display: none;
+    flex-wrap: wrap;
+}
+
+.pricing__items.show {
+    display: flex;
+    animation: showItem .6s ease 1;
+}
+
+@keyframes showItem {
+    0% {
+        opacity: 0;
+        transform: scale(.8);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.pricing__card {
+    min-width: 300px;
+    max-width: 350px;
+    background-image: url(../img/pricing-card.png);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 1rem;
+    background-position: 0 0;
+    align-items: center;
+    padding: 2rem 0 .5rem;
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 0rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: var(--font-light);
+    background-color: #196c8d;
+    display: inline;
+    padding: .3rem .5rem;
+    border-radius: .8rem;
+    box-shadow: 0 0 5px #318baf;
+}
+
+.badge.golden {
+    background-color: goldenrod;
+    box-shadow: 0 0 5px gold;
+    color: black;
+}
+
+.pricing__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1.5rem;
+    border-bottom: 1px solid #344054;
+}
+
+.pricing__info .info h3 {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.pricing__info .info p {
+    font-size: .7rem;
+    font-weight: var(--font-light);
+    color: var(--gray-color);
+}
+
+.pricing__info .price {
+    font-size: 1.7rem;
+    font-weight: var(--font-semi-bold);
+    color: var(--main-theme-color);
+}
+
+.services {
+    padding: 2rem 3rem;
+}
+
+.services p {
+    font-size: .8rem;
+    font-weight: var(--font-light);
+    color: var(--gray-color);
+    margin-block: 1rem;
+}
+
+.services p span {
+    font-weight: var(--font-medium);
+    color: white;
+}
+
+.pricing .main__btn {
+    margin-inline: auto;
+    margin-top: 5rem;
+    display: block;
+}
+
+/*!============= REVIEWS ===== */
+.testimonial__content {
+    gap: 6rem;
+}
+
+.testimonial-item {
+    padding: 1.3rem 1rem;
+    min-height: 10rem;
+}
+
+.review {
+    font-size: var(--normal-font-size);
+    font-style: normal;
+    line-height: 1.5rem;
+    margin-block: 0;
+    margin-bottom: 1.5rem;
+}
+
+.user-info .info .name {
+    font-size: var(--smaller-font-size);
+}
+
+.user-info .info .work {
+    font-size: .7rem;
+}
+
+/*!============ RESPONSIVENESS =============*/
+@media screen and (max-width:900px) {
+    .testimonial__content {
+        gap: 3rem;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .testimonial__content {
+        gap: 2rem;
+    }
+
+    .drive-icon {
+        bottom: 3rem;
+        left: 3rem;
+    }
+
+    .pricing {
+        width: 100%;
+        padding-inline: 2rem;
+    }
+
+
+}
+
+@media screen and (max-width:450px) {
+    .pricing__card {
+        min-width: 100%;
+    }
+}

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <!--!========== REMIX-ICON ==========-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!--!=========== MAIN CSS ==========-->
+    <link rel="stylesheet" href="../style.css">
+    <!--!=========== CUSTOM CSS ==========-->
+    <link rel="stylesheet" href="./style.css">
+    <!--!=========== MAIN JS ==========-->
+    <script src="../script.js" defer></script>
+    <!--!=========== CUSTOM JS ==========-->
+    <script src="./script.js" defer></script>
+    <title>Glu - Pricing</title>
+</head>
+
+<body>
+    <div class="body__gradient"></div>
+
+    <!--!========= HEADER ============-->
+    <header class="header padding-inline">
+        <nav class="navbar flex">
+            <div class="nav__logo flex-1">
+                <a href="../index.html"><img src="../img/Klu-logo.png" alt=""></a>
+
+            </div>
+
+            <div class="nav__menu flex-1" id="nav-menu">
+                <ul class="nav__list flex">
+                    <li>
+                        <a href="./index.html" class="nav__link">Pricing</a>
+                    </li>
+                    <li class="dropdown__container">
+                        <a href="#" class="nav__link dropdown__link">
+                            Download
+                            <i class="ri-arrow-down-s-line"></i>
+                        </a>
+                        <ul class="dropdown__modal">
+                            <li>Google Chrome Extension</li>
+                            <li>Mac Intel Processor</li>
+                            <li>Mac m1/2 Apple Silicon</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown__container">
+                        <a href="#" class="nav__link dropdown__link">
+                            Resources
+                            <i class="ri-arrow-down-s-line"></i>
+                        </a>
+                        <ul class="dropdown__modal">
+                            <li>💰 Funding news</li>
+                            <li>📰 Press release</li>
+                            <li>💻 How to use Klu</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__signin flex flex-1">
+                <button class="login__btn"><a href="#">LOGIN</a></button>
+                <button class="signup__btn"><a href="#">SIGN UP</a></button>
+            </div>
+
+            <div class="menu__toggle flex-1">
+                <i class="ri-menu-fill"></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <!--!========== MAIN ===========-->
+    <main>
+        <!--.========= HOME ========= -->
+        <section class="home padding-block">
+            <div class="img__box">
+                <img src="../img/figma-img.png" class="figma-icon icon">
+                <img src="../img/notion-img.png" class="notion-icon icon">
+                <img src="../img/drive-img.png" class="drive-icon icon">
+                <img src="../img/gmail-img.png" class="gmail-icon icon">
+                <img src="../img/cloud-img.png" class="cloud-icon icon">
+                <img src="../img/trello-img.png" class="trello-icon icon">
+            </div>
+
+            <div class="home__content">
+                <h1><span class="text-gradient">Pricing that grows with you.</span>
+                    Simple. Transparent.</h1>
+                <p>Cost-Effective, Full Service. High Security</p>
+            </div>
+        </section>
+
+        <!--.========= PRICING ========= -->
+        <section class="pricing padding-block">
+            <div class="pricing__btn-box">
+                <button class="pricing__btn active" id="monthly">Montly</button>
+                <button class="pricing__btn" id="yearly">Yearly</button>
+            </div>
+
+            <div class="pricing__content">
+                <div class="pricing__items show" id="monthly-content">
+
+                    <div class="pricing__card flex-1">
+                        <div class="pricing__info">
+                            <div class="info">
+                                <h3>Personal</h3>
+                                <p>designed for individuals who want to try out Klu.</p>
+                            </div>
+                            <div class="price">$0</div>
+                        </div>
+                        <div class="services">
+                            <p><span>2</span> Integrations</p>
+                            <p><span>2</span> Folders</p>
+                            <p><span>3</span> Pinned items</p>
+                            <p><span>250MB</span> Storage space</p>
+                            <p><span>5MB</span> File upload size</p>
+                        </div>
+                    </div>
+
+                    <div class="pricing__card flex-1">
+                        <div class="badge">Recomended</div>
+                        <div class="pricing__info">
+                            <div class="info">
+                                <h3>Personal Pro</h3>
+                                <p>designed for individuals with additional features..</p>
+                            </div>
+                            <div class="price">$4</div>
+                        </div>
+                        <div class="services">
+                            <p>Unlimited integrations</p>
+                            <p>Unlimited folders</p>
+                            <p>Unlimited pinned items</p>
+                            <p>Unlimited storage space</p>
+                            <p><span>250MB</span> File upload size</p>
+                        </div>
+                    </div>
+
+                    <div class="pricing__card flex-1">
+                        <div class="pricing__info">
+                            <div class="info">
+                                <h3>Personal</h3>
+                                <p>designed for small/large teams with a needs. Per member.</p>
+                            </div>
+                            <div class="price">$8</div>
+                        </div>
+                        <div class="services">
+                            <p>Unlimited integrations</p>
+                            <p>Unlimited folders</p>
+                            <p>Unlimited pinned items</p>
+                            <p><span>10GB</span> Storage space</p>
+                            <p><span>250MB</span> File upload size</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="pricing__items" id="yearly-content">
+
+                    <div class="pricing__card flex-1">
+                        <div class="pricing__info">
+                            <div class="info">
+                                <h3>Personal</h3>
+                                <p>designed for individuals who want to try out Klu.</p>
+                            </div>
+                            <div class="price">$0</div>
+                        </div>
+                        <div class="services">
+                            <p><span>2</span> Integrations</p>
+                            <p><span>2</span> Folders</p>
+                            <p><span>3</span> Pinned items</p>
+                            <p><span>250MB</span> Storage space</p>
+                            <p><span>5MB</span> File upload size</p>
+                        </div>
+                    </div>
+
+                    <div class="pricing__card flex-1">
+                        <div class="badge golden">20% discount</div>
+                        <div class="pricing__info">
+                            <div class="info">
+                                <h3>Personal Pro</h3>
+                                <p>designed for individuals with additional features..</p>
+                            </div>
+                            <div class="price">$39</div>
+                        </div>
+                        <div class="services">
+                            <p>Unlimited integrations</p>
+                            <p>Unlimited folders</p>
+                            <p>Unlimited pinned items</p>
+                            <p>Unlimited storage space</p>
+                            <p><span>250MB</span> File upload size</p>
+                        </div>
+                    </div>
+
+                    <div class="pricing__card flex-1">
+                        <div class="badge golden">20% discount</div>
+                        <div class="pricing__info">
+                            <div class="info">
+                                <h3>Personal</h3>
+                                <p>designed for small/large teams with a needs. Per member.</p>
+                            </div>
+                            <div class="price">$77</div>
+                        </div>
+                        <div class="services">
+                            <p>Unlimited integrations</p>
+                            <p>Unlimited folders</p>
+                            <p>Unlimited pinned items</p>
+                            <p><span>10GB</span> Storage space</p>
+                            <p><span>250MB</span> File upload size</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <button class="main__btn"><a href="#">Try klu now</a></button>
+        </section>
+
+
+        <!--.========== REVIEWS =========-->
+        <section class="testimonials padding-block">
+            <div class="section-title">REVIEWS</div>
+
+            <div class="testimonial__content flex">
+                <div class="testimonial-column flex-1">
+
+                    <div class="testimonial-item">
+
+                        <h3 class="review">"I can quickly find whatever information I need. I can save it and share it with the team. I can perform any action
+                        without having to leave Klu. Supersonic tool."</h3>
+        
+                        <div class="user-info">
+                            <img src="../img/andrea.jpeg">
+                            <div class="info">
+                                <p class="name">Andrea Balzarini</p>
+                                <p class="work">Partner at Raylab | Co-founder, CTO at Magmatao</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="testimonial-item">
+                        <h3 class="review">"Klu made managing all of the company files a breeze. Slack, Figma, and Notion have all been integrated. I can locate
+                        any file that my team is working on."</h3>
+        
+                        <div class="user-info">
+                            <img src="../img/hassene.jpeg">
+                            <div class="info">
+                                <p class="name">Hassene Ben Mansour</p>
+                                <p class="work">CEO of Smappy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-column flex-1">
+        
+                    <div class="testimonial-item">
+                        <h3 class="review">"My entire job used to involve switching between tools, giving people as much context as possible from different
+                        sources. With Klu all the context I ever need as a founder is instantly accessible and I can't imagine work without it."</h3>
+        
+                        <div class="user-info">
+                            <img src="../img/emil-img.jpeg">
+                            <div class="info">
+                                <p class="name">Emil Ostin</p>
+                                <p class="work">CEO & Co Founder at Sterly Oy</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="testimonial-item">
+
+                        <h3 class="review">"Klu is incredibly simple to use and saves me hours every week."</h3>
+        
+                        <div class="user-info">
+                            <img src="../img/vedat-img.jpeg">
+                            <div class="info">
+                                <p class="name">Vedat Öndas</p>
+                                <p class="work">Chief, Executive Director at ArcticStartup</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+                <div class="testimonial-column flex-1">
+        
+                    <div class="testimonial-item">
+
+                        <h3 class="review">"Every day, as a founder, there are a million things that require my attention. Klu provides us with quick access to and
+                        key insights into."</h3>
+        
+                        <div class="user-info">
+                            <img src="../img/shavkat-img.jpeg">
+                            <div class="info">
+                                <p class="name">Shavkat Aslamshoev</p>
+                                <p class="work">CEO of Ecompile</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="testimonial-item">
+
+                        <h3 class="review">"We now have instant and easy access to all of our files and information thanks to Klu.so. Sharing information with
+                        colleagues has never been faster or easier. It unquestionably increased our productivity."</h3>
+        
+                        <div class="user-info">
+                            <img src="../img/tukka-img.jpg">
+                            <div class="info">
+                                <p class="name">Tuukka Moisio</p>
+                                <p class="work">Chief Operating Officer at Mint</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        
+        
+        </section>
+
+    </main>
+
+
+    <!--!========= FOOTER ============-->
+    <footer class="footer">
+        <div class="footer__main">
+            <div class="footer__logo">
+                <img src="../img/klu-word-logo.png">
+            </div>
+    
+            <div class="footer-main__content">
+                <div class="footer-links">
+                    <p class="heading">COMPANY</p>
+                    <a href="#">Pricing</a>
+                    <a href="#">Press release</a>
+                    <a href="#">About Us</a>
+                </div>
+                <div class="footer-links">
+                    <p class="heading">RESOURCES</p>
+                    <a href="#">Finding news</a>
+                    <a href="#">Medium</a>
+                    <a href="#">Download Chrome Extension</a>
+                </div>
+                <div class="footer-links">
+                    <p class="heading">ABOUT</p>
+                    <a href="#">Security</a>
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Support</a>
+                    <div class="social__links">
+                        <i class="ri-twitter-fill"></i>
+                        <i class="ri-linkedin-box-fill"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer__text">
+            <p>Funded by Antler VC</p>
+            <p>Made in Finland</p>
+        </div>
+    </footer>
+    
+    <p class="copyright__text">Copyright &copy; 2023 Klu Technology Oy</p>
+
+</body>
+
+</html>
